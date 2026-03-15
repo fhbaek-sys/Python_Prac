@@ -1,0 +1,20 @@
+{
+    "cash": 800000.0,
+    "holdings": {
+        "TAO/USDT:USDT": {
+            "entry_price": 262.2,
+            "amount": 762.7765064836003,
+            "margin": 100000.0,
+            "reason_score": 0.7419654726982117,
+            "entry_time": "2026-03-15 20:38:13"
+        },
+        "NEAR/USDT:USDT": {
+            "entry_price": 1.3471,
+            "amount": 148467.07742558088,
+            "margin": 100000.0,
+            "reason_score": 0.7733779549598694,
+            "entry_time": "2026-03-15 20:38:13"
+        }
+    },
+    "total_pnl": 0
+}
