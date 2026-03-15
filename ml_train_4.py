@@ -13,7 +13,7 @@ from datetime import datetime
 # ==========================================
 # [사용자 설정 변수]
 # ==========================================
-INITIAL_BALANCE = 1000000  # 초기 투자금 10만원
+INITIAL_BALANCE = 1000000  # 초기 투자금 100만원
 TARGET_PROFIT = 0.04      # 익절 4%
 STOP_LOSS = -0.02         # 손절 -2%
 TRADE_FEE = 0.0006        # 수수료 가정 (0.06%)
@@ -23,16 +23,12 @@ MAX_POSITIONS = 5          # 동시 진입 최대 종목 수
 TRADE_INTERVAL = 1800      # 매매 의사결정 주기 (초단위, 30분)
 MONITOR_INTERVAL = 600    # 모니터링/수익체크 주기 (초단위, 10분)
 
-SYMBOLS = ["SOLUSDT",
-"LINKUSDT",
-"AVAXUSDT",
-"ADAUSDT",
-"XRPUSDT",
-"DOGEUSDT",
-"APTUSDT",
-"ARBUSDT",
-"OPUSDT",
-"ATOMUSDT"]
+SYMBOLS = ["BTCUSDT", "ETHUSDT", "SOLUSDT", "BNBUSDT", "XRPUSDT", "ADAUSDT", "DOGEUSDT", "TRXUSDT", "DOTUSDT", "AVAXUSDT",
+    "LINKUSDT", "BCHUSDT", "NEARUSDT", "SUIUSDT", "APTUSDT", "LTCUSDT", "ICPUSDT",
+    "KASUSDT", "FETUSDT", "ETCUSDT", "XLMUSDT", "STXUSDT", "RENDERUSDT", "HBARUSDT", "ARBUSDT", "OPUSDT", "FILUSDT",
+    "FLOWUSDT", "HYPEUSDT", "TIAUSDT", "SEIUSDT", "INJUSDT", "ORDIUSDT", "WLDUSDT", "RNDRUSDT", "TAOUSDT",
+    "LDOUSDT", "MKRUSDT", "AAVEUSDT", "ALGOUSDT", "EGLDUSDT", "THETAUSDT", "VETUSDT", "EOSUSDT"]
+
 MODEL_FILE = "xgb_trading_model.json"
 
 # 경로 설정
